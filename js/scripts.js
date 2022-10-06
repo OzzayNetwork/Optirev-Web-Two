@@ -835,3 +835,7 @@ $(function () {
     initparallax();
     initSolonick();
 });
+
+var thisYear=Date().getFullYear();
+
+$('.this-year').text(thisYear)
