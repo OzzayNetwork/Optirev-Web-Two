@@ -627,7 +627,7 @@ function initSolonick() {
     videoint();
     // Share   ------------------
     $(".share-container").share({
-        networks: ['facebook', 'pinterest', 'googleplus', 'twitter', 'linkedin']
+        networks: ['facebook', 'pinterest', 'twitter', 'linkedin']
     });
     var shrcn = $(".share-wrapper"),
         ssb = $(".showshare");
