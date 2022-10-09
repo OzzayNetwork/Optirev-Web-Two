@@ -836,6 +836,7 @@ $(function () {
     initSolonick();
 });
 
-var thisYear=Date().getFullYear();
+// var thisYear=Date().getFullYear();
+var thisYear="2022"
 
 $('.this-year').text(thisYear)
